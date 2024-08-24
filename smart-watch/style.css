@@ -1,0 +1,134 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.container {
+	width: 1110px;
+	margin: 0 auto;
+}
+
+header {
+	padding-top: 60px;
+}
+.header-box {
+	position: relative;
+}
+.header-box .right {
+	width: 465px;
+	display: inline-block;
+	position: absolute;
+	right: 0;
+	top: 85.5px;
+}
+
+header .container>img {
+	width: 145px;
+	display: block;
+	margin: 79px auto 0;
+}
+
+.header-box .right h2 {
+	font: 700 50px/70px Arial;
+}
+.header-box .right p {
+	font: 400 18px/24.6px Arial;
+	margin: 30px 0;
+}
+.header-box .right button {
+	font: 700 18px/24.61px Arial;
+	padding: 22px 70px;
+	background-color: #000;
+	color: #fff;
+	border-radius: 100px;
+	border: none;
+	cursor: pointer;
+}
+
+section {
+	padding-top: 120px;
+	padding-bottom: 120px;
+}
+
+.section-box {
+	width: 720px;
+	margin: 0 auto;
+}
+
+.section-box h2.title {
+	font: 700 40px/56px Arial;
+	text-align: center;
+	margin-bottom: 70px;
+}
+
+.section-box .list {
+	gap: 41px;	
+	display: flex;
+	flex-direction: column;
+}
+
+.section-box .list .row {
+	width: 100%;
+	position: relative;
+}
+.section-box .list .row span.order {
+	position: absolute;
+	width: 77px;
+	height: 77px;
+	border: 1px solid #000;
+	border-radius: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font: 700 20px/27.34px Arial;
+}
+.section-box .list .row .row-title,
+.section-box .list .row .row-desc {
+	padding-left: 111px;
+}
+.section-box .list .row .row-title {
+	font: 700 30px/40.85px Arial;
+	margin-bottom: 11px;
+}
+
+.section-box .list .row .row-desc {
+	font: 400 18px/20.61px Arial;
+}
+
+.footer-box {
+	width: 100%;
+	height: 486px;
+	background-image: linear-gradient(to right, #E8FFE8, #D1F0FF);
+	border-radius: 60px;
+	padding: 93px 168px 89px 122px;
+	display: flex;
+}
+
+.footer-box .footer-img {
+	margin-right: 101px;
+}
+
+.footer-box .right h2 {
+	font: 700 40px/56px Arial;
+}
+.footer-box .right p {
+	font: 400 18px/24.6px Arial;
+	margin: 24px 0;
+}
+.footer-box .right button {
+	font: 700 18px/24.61px Arial;
+	padding: 22px 70px;
+	background-color: #000;
+	color: #fff;
+	border-radius: 100px;
+	border: none;
+	cursor: pointer;
+}
+
+.copyright {
+	font: 400 15px/20.43px Arial;
+text-align: center;
+	margin-top: 120px;
+	margin-bottom: 120px;
+}
